@@ -163,9 +163,6 @@ Forecasts are issued every 6 hours (00/06/12/18 UTC), so every horizon sees ever
 
 Folds: 4 x 91 days, ends 2025-12-31.
 
-Things worth checking and writing up once you have real numbers: MAE vs. horizon (flat or growing?), error on
-holidays/bridge days vs. normal days, coverage vs. the nominal 90 % (quantile GBMs are often slightly over-confident),
-and the 2020–2021 COVID period if your range includes it.
 
 ## Limitations and honest caveats
 
