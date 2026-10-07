@@ -6,8 +6,7 @@ intervals from quantile regression**.
 
 ![Forecast vs actual with prediction interval](reports/figures/forecast_vs_actual.png)
 
-> The figure above is produced by `python -m src.run_pipeline` (see *Quick start*). Paste the generated
-> tables from `reports/results.md` into the **Results** section below after your run.
+> The figure above is produced by `python -m src.run_pipeline` (see *Quick start*).
 
 ## Data
 
@@ -190,7 +189,7 @@ src/
   model.py          LightGBM point + quantile models
   evaluate.py       MAE/RMSE/MAPE per horizon, interval diagnostics, plots
   run_pipeline.py   end-to-end CLI
-  synthetic.py      fake data for tests / offline dry-runs (never report results from it)
+  synthetic.py      synthetic data for tests/dry-runs only
 tests/              DST round trip, gap handling, no-look-ahead
 ```
 
@@ -198,5 +197,4 @@ tests/              DST round trip, gap handling, no-look-ahead
 * Ablation: with vs. without temperature; with vs. without holidays.
 * Add wind/solar generation or day-ahead price as features, or forecast the residual load.
 * Quantile forecasts for more levels (10/50/90) and a CRPS comparison.
-* See [`docs/WHAT_WAS_WRONG_AND_HOW_TO_IMPROVE.md`](docs/WHAT_WAS_WRONG_AND_HOW_TO_IMPROVE.md) for a prioritised list.
 * SHAP analysis of holiday and temperature effects.
