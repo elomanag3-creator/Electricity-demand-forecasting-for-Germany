@@ -104,7 +104,6 @@ Forecasts are issued every 6 hours (00/06/12/18 UTC), so every horizon sees ever
 
 ## Results
 
-_Run the pipeline, then paste `reports/results.md` here._
 ### Overall (all folds, all horizons 1-48 h, origins every 6 h)
 
 | model | MAE | RMSE | MAPE_% | n |
