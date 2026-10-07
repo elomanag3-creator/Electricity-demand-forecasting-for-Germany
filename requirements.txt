@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+requests>=2.31
+lightgbm>=4.0
+holidays>=0.50
+statsmodels>=0.14      # SARIMA baseline
+prophet>=1.1           # optional second baseline
+pytest>=7.0

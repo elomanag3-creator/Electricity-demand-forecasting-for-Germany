@@ -1,0 +1,11 @@
+{
+  "start": "2019-01-01 00:00:00+00:00",
+  "end": "2025-12-31 00:00:00+00:00",
+  "n_hours": 61345,
+  "duplicate_timestamps_merged": 0,
+  "implausible_values_removed": 0,
+  "missing_hours_raw": 0,
+  "longest_gap_hours": 0,
+  "hours_interpolated": 0,
+  "missing_hours_after_cleaning": 0
+}
