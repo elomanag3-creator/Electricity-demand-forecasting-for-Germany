@@ -8,7 +8,7 @@ intervals from quantile regression**.
 
 > The figure above is produced by `python -m src.run_pipeline` (see *Quick start*).
 
-## Data 
+## Data
 
 | Source | What | Notes |
 |---|---|---|
